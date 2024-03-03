@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owfont-regular.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+<body bgcolor="black">
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+            <a href="index.html"><h1 class="name">WhatWeatherToday</h1></a>
+            <div class="wrapper site-header__wrapper">
+                <form>
+                    <dif class ="init">
+                        <input type="text" id="pin" placeholder="On Eng" / >
+                        <button type="button" name="popup-button" class = "search">Искать</button>
+                    </dif>
+                </form>
+            </div>
+            
+        </div>
+    </header>
+    <div class="fullscreen-bg">
+    <div class="weather">
+        <div class="overlay">
+            <section>
+            <h1 class="city">{Город}</h1>
+            </section>
+            <aside>
+            <h1 class="weather_name">{Состояние погоды}</h1>
+            </aside>
+        
+        <h2 class="temp">{Температура} &#8451</h2>
+        <div class="detalis">
+            <div class = "col">
+                <img src = "./source/humadity.png">
+                <p class="humidity">{Влажность}%</p>
+            </div>
+            
+            <div class="col">
+                <div>
+                    <img src = "./source/wind.png">
+                    <p class="wind">{Скорость ветра}km/h</p>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="weather-image">
+            <video loop="" muted="" autoplay="" poster="gray.jpg" class="fullscreen-bg__video">
+                <source src="./source/clear.mp4" type="video/mp4">
+
+            </video>
+        </div>
+        </div>
+    </div>
+    </div>
+    <footer bgcolor="blue" width="100%">
+        <a href="https://openweathermap.org/api"><p class = "colontitul-start-txt">    api</p></a>
+        <a href="https://openweathermap.org/api/one-call-3"><p class = "colontitul-txt">    documintation</p></a>
+        <a href="https://openweathermap.org/api/one-call-3"><p class = "colontitul-txt">    github</p></a>
+    </footer>
+<script src="./script.js"></script>
+</body>
+</html>

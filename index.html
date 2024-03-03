@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+                <a href="index.html"><h1 class="name">WhatWeatherToday</h1></a>
+                <div class="wrapper site-header__wrapper">
+                    <form>
+                        <dif class ="init">
+                            <input type="text" id="pin" placeholder="On Eng">
+                            <button type="button" name="popup-button" class = "search">Искать</button>
+                        </dif>
+                    </form>
+                </div>
+                
+        </div>
+    </header>
+    <div class="fullscreen-bg">
+        <a href="weather.html">
+        <div class="overlay">
+            <h1 class="main">Узнайте на сегодня погоду</h1>
+            <hr color="azure" width="40%" height = "2px">
+
+            <p class="under">Demo сервис показывющую погоду</p>
+
+        </div>
+        </a>
+        <video loop="" muted="" autoplay="" poster="gray.jpg" class="fullscreen-bg__video">
+            <source src="source/fon.mp4" type="video/mp4">
+
+        </video>
+    </div>
+    <footer bgcolor="blue" width="100%">
+        <a href="https://openweathermap.org/api"><p class = "colontitul-start-txt">    api</p></a>
+        <a href="https://openweathermap.org/api/one-call-3"><p class = "colontitul-txt">    documintation</p></a>
+        <a href="https://openweathermap.org/api/one-call-3"><p class = "colontitul-txt">    github</p></a>
+    </footer>
+    <script src="welcome_page.js"></script>
+</body>
+</html>

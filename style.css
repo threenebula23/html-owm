@@ -1,0 +1,199 @@
+div.site-header__wrapper {
+display: contents;
+}
+
+.site-header {
+    display: flex;
+    height: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.welcome{
+    width: 100%;
+    height: 300px;
+    font: center;
+}
+.fullscreen-bg {
+        overflow: hidden;
+        z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.colontitul{
+    background: rgba(0,0,0,0.6);
+    margin-top: 400px;
+    padding-top: 200px;
+    width: 100%;
+    height: 80px;
+}
+.col{
+    width: 100%;
+    float: left;
+}
+.detalis{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 50%;
+  }
+aside {
+    float: right;
+    margin: 0 1.5%;
+  }
+h1.name{
+    font-size: 40px;
+    height: 40px;
+    font-family: consolas;
+    color: azure;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.main{
+    padding-top: 40px;
+    font-size: 60px;
+    height: 40px;
+    font-family: consolas;
+    color: azure;
+    text-align: center;
+}
+
+
+p.under{
+font-size: 30px;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+color: azure;
+text-align: center;
+padding-top: 0%;
+margin-top: 0%;
+}
+.colontitul-start-txt{
+    background-color: #000B1C;
+    font-size: 18px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    text-align: left;
+    padding-top: 50px ;
+    margin-top: 0px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    }
+.colontitul-txt{
+    background-color: #000B1C;
+    font-size: 18px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    text-align: left;
+    padding-top: 7px ;
+    margin-top: 0px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    }
+.city{
+        padding-top: 40px;
+        font-size: 70px;
+        height: 40px;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        color: azure;
+        text-align: left;
+        width: fit-content;
+}
+.weather_name{
+    padding-top: 40px;
+    font-size: 70px;
+    height: 40px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    text-align: right;
+    width: fit-content;
+}
+.temp
+{
+    padding-top: 140px;
+    margin-top: 60px;
+    font-size: 65px;
+    height: 40px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    text-align: left;
+}
+.humidity{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 140px;
+    font-size: 65px;
+    height: 40px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    text-align: left;
+}
+.wind{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 140px;
+    font-size: 65px;
+    height: 40px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    text-align: left;
+}
+input{            
+height: 40px;
+    font-size: 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    border-radius:15px;
+}
+
+button.search{            
+    height: 40px;
+    font-size: 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: azure;
+    border: solid 1px black;
+    background-color: darkslategrey;
+    border-radius:15px;
+}
+.rand{
+    height: 40px;
+    font-size: 30px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: black;
+    border: solid 1px deepskyblue;
+    background-color: deepskyblue;
+    border-radius:15px;
+    margin: 0 auto;
+    display: block;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+img{
+    float: left;
+
+}
